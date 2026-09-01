@@ -1,0 +1,28 @@
+{
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos",
+    "is_weekend",
+    "is_monsoon",
+    "temperature",
+    "humidity",
+    "population_factor",
+    "elec_lag1",
+    "elec_lag24",
+    "elec_roll4",
+    "temp_x_hour",
+    "temp_x_pop"
+  ],
+  "performance": {
+    "rmse": 72.01,
+    "r2": 0.9713
+  },
+  "baseline_mw": 3570.8,
+  "note": "City-wide. Only used for population growth and hospital scenarios.",
+  "tangedco_context": {
+    "peak_mw": 6000,
+    "base_mw": 3200
+  }
+}
