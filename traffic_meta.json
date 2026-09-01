@@ -1,0 +1,667 @@
+{
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "month_sin",
+    "month_cos",
+    "is_weekend",
+    "is_peak_hour",
+    "is_monsoon",
+    "is_festival",
+    "festival_mult",
+    "road_type_enc",
+    "lanes",
+    "length_km",
+    "temperature",
+    "humidity",
+    "wind_speed_kmph",
+    "rainfall_mm",
+    "traffic_lag1",
+    "traffic_lag3",
+    "traffic_lag24",
+    "traffic_roll4"
+  ],
+  "road_type_models": {
+    "NH": {
+      "traffic_index": {
+        "rmse": 2.575,
+        "mae": 2.048,
+        "r2": 0.9726
+      },
+      "speed_kmph": {
+        "rmse": 1.257,
+        "mae": 0.993,
+        "r2": -0.0045
+      },
+      "travel_time_min": {
+        "rmse": 0.621,
+        "mae": 0.484,
+        "r2": -0.014
+      }
+    },
+    "SH": {
+      "traffic_index": {
+        "rmse": 2.651,
+        "mae": 2.117,
+        "r2": 0.9769
+      },
+      "speed_kmph": {
+        "rmse": 1.296,
+        "mae": 1.066,
+        "r2": -0.0273
+      },
+      "travel_time_min": {
+        "rmse": 0.201,
+        "mae": 0.165,
+        "r2": -0.0519
+      }
+    },
+    "expressway": {
+      "traffic_index": {
+        "rmse": 2.435,
+        "mae": 1.942,
+        "r2": 0.9536
+      },
+      "speed_kmph": {
+        "rmse": 5.156,
+        "mae": 5.012,
+        "r2": -17.3908
+      },
+      "travel_time_min": {
+        "rmse": 1.199,
+        "mae": 1.153,
+        "r2": -12.5183
+      }
+    },
+    "arterial": {
+      "traffic_index": {
+        "rmse": 2.767,
+        "mae": 2.205,
+        "r2": 0.9865
+      },
+      "speed_kmph": {
+        "rmse": 6.08,
+        "mae": 4.636,
+        "r2": -0.5375
+      },
+      "travel_time_min": {
+        "rmse": 1.931,
+        "mae": 1.423,
+        "r2": 0.6197
+      }
+    },
+    "collector": {
+      "traffic_index": {
+        "rmse": 2.958,
+        "mae": 2.334,
+        "r2": 0.9882
+      },
+      "speed_kmph": {
+        "rmse": 2.643,
+        "mae": 1.921,
+        "r2": -0.1299
+      },
+      "travel_time_min": {
+        "rmse": 0.923,
+        "mae": 0.626,
+        "r2": 0.6069
+      }
+    }
+  },
+  "road_baselines": {
+    "NH": {
+      "traffic_mean": 25.520237688098494,
+      "speed_mean": 77.85907860237118,
+      "travel_mean": 27.77624686502508
+    },
+    "SH": {
+      "traffic_mean": 28.830570280437755,
+      "speed_mean": 61.57709758321933,
+      "travel_mean": 16.14279810761514
+    },
+    "expressway": {
+      "traffic_mean": 19.931096671226634,
+      "speed_mean": 71.17470246238031,
+      "travel_mean": 19.617966256269955
+    },
+    "arterial": {
+      "traffic_mean": 37.30681837788541,
+      "speed_mean": 39.615193305480574,
+      "travel_mean": 11.242989518246016
+    },
+    "collector": {
+      "traffic_mean": 43.19877542179663,
+      "speed_mean": 28.73080848153215,
+      "travel_mean": 8.059328317373462
+    }
+  },
+  "per_road_baselines": {
+    "100ft_Vadapalani": {
+      "traffic_mean": 39.31465458276334,
+      "speed_mean": 36.89577633378933,
+      "travel_mean": 8.14561673506612,
+      "road_type": "arterial",
+      "road_name": "100 Feet Road Vadapalani"
+    },
+    "100ft_Velachery": {
+      "traffic_mean": 36.661274509803924,
+      "speed_mean": 38.916022571819425,
+      "travel_mean": 9.263212494300046,
+      "road_type": "arterial",
+      "road_name": "100 Feet Road Velachery"
+    },
+    "Adyar_Bridge_Road": {
+      "traffic_mean": 36.63796739626083,
+      "speed_mean": 33.96985294117647,
+      "travel_mean": 7.095918832649339,
+      "road_type": "arterial",
+      "road_name": "Adyar Bridge Road"
+    },
+    "Ambattur_IE_Road": {
+      "traffic_mean": 42.428693570451436,
+      "speed_mean": 28.868091655266756,
+      "travel_mean": 12.504833561331509,
+      "road_type": "collector",
+      "road_name": "Ambattur Industrial Estate Rd"
+    },
+    "Anna_Nagar_2nd_Ave": {
+      "traffic_mean": 39.33996808025536,
+      "speed_mean": 33.929742362061106,
+      "travel_mean": 8.869904240766074,
+      "road_type": "arterial",
+      "road_name": "Anna Nagar 2nd Avenue"
+    },
+    "Anna_Nagar_ER": {
+      "traffic_mean": 45.55609895120839,
+      "speed_mean": 28.81574327405381,
+      "travel_mean": 6.2640845873233015,
+      "road_type": "collector",
+      "road_name": "Anna Nagar East Road"
+    },
+    "Anna_Salai": {
+      "traffic_mean": 36.623238714090284,
+      "speed_mean": 43.880517555859555,
+      "travel_mean": 16.426624487004105,
+      "road_type": "arterial",
+      "road_name": "Anna Salai (Mount Road)"
+    },
+    "Arcot_Road": {
+      "traffic_mean": 39.34431144550843,
+      "speed_mean": 38.90880072959416,
+      "travel_mean": 18.530973552211584,
+      "road_type": "arterial",
+      "road_name": "Arcot Road"
+    },
+    "Basin_Bridge_Road": {
+      "traffic_mean": 36.5937015503876,
+      "speed_mean": 33.97622549019608,
+      "travel_mean": 5.289010487916096,
+      "road_type": "arterial",
+      "road_name": "Basin Bridge Road"
+    },
+    "Bells_Road": {
+      "traffic_mean": 36.63705540355677,
+      "speed_mean": 36.96069881440948,
+      "travel_mean": 8.130563155494757,
+      "road_type": "arterial",
+      "road_name": "Bells Road"
+    },
+    "Besant_Avenue": {
+      "traffic_mean": 42.43058025535795,
+      "speed_mean": 28.87360921112631,
+      "travel_mean": 6.250923392612859,
+      "road_type": "collector",
+      "road_name": "Besant Avenue Road"
+    },
+    "CP_Ramaswamy_Road": {
+      "traffic_mean": 42.44431714546283,
+      "speed_mean": 26.885237118103053,
+      "travel_mean": 6.703898768809849,
+      "road_type": "collector",
+      "road_name": "CP Ramaswamy Road"
+    },
+    "CTH_Road": {
+      "traffic_mean": 36.615224578203375,
+      "speed_mean": 48.825381896944826,
+      "travel_mean": 24.602439580483356,
+      "road_type": "arterial",
+      "road_name": "Chennai Trunk Road (CTH)"
+    },
+    "Cenotaph_Road": {
+      "traffic_mean": 42.4766301869585,
+      "speed_mean": 26.895702234382124,
+      "travel_mean": 6.701128590971273,
+      "road_type": "collector",
+      "road_name": "Cenotaph Road"
+    },
+    "Chamiers_Road": {
+      "traffic_mean": 42.484479024167804,
+      "speed_mean": 28.86778385772914,
+      "travel_mean": 6.2523882808937525,
+      "road_type": "collector",
+      "road_name": "Chamiers Road"
+    },
+    "Chromepet_Main": {
+      "traffic_mean": 42.496517327861376,
+      "speed_mean": 28.86158230734154,
+      "travel_mean": 8.338816689466485,
+      "road_type": "collector",
+      "road_name": "Chromepet Main Road"
+    },
+    "Dr_Radha_Salai": {
+      "traffic_mean": 36.60855563155495,
+      "speed_mean": 38.93183424532604,
+      "travel_mean": 7.715954172366621,
+      "road_type": "arterial",
+      "road_name": "Dr Radhakrishnan Salai"
+    },
+    "EVK_Sampath": {
+      "traffic_mean": 36.64126196990424,
+      "speed_mean": 33.96987574099407,
+      "travel_mean": 7.096260829913361,
+      "road_type": "arterial",
+      "road_name": "EVK Sampath Road"
+    },
+    "Greenways_Road": {
+      "traffic_mean": 42.443644550843594,
+      "speed_mean": 28.868809849521206,
+      "travel_mean": 6.251806885544916,
+      "road_type": "collector",
+      "road_name": "Greenways Road"
+    },
+    "Harrington_Egmore": {
+      "traffic_mean": 42.463149794801645,
+      "speed_mean": 26.892612859097127,
+      "travel_mean": 6.701806885544916,
+      "road_type": "collector",
+      "road_name": "Poonamallee HR Egmore"
+    },
+    "Harrington_Road": {
+      "traffic_mean": 36.66466028271774,
+      "speed_mean": 36.95923962608299,
+      "travel_mean": 4.8617362061103515,
+      "road_type": "arterial",
+      "road_name": "Harrington Road"
+    },
+    "Inner_Ring_Road": {
+      "traffic_mean": 20.15497606019152,
+      "speed_mean": 54.17126082991336,
+      "travel_mean": 24.37896716826265,
+      "road_type": "expressway",
+      "road_name": "Inner Ring Road"
+    },
+    "Jawaharlal_Nehru_Rd": {
+      "traffic_mean": 39.28795599635203,
+      "speed_mean": 38.882028043775655,
+      "travel_mean": 12.362773597811218,
+      "road_type": "arterial",
+      "road_name": "Jawaharlal Nehru Road"
+    },
+    "Jawaharlal_Nehru_Sal": {
+      "traffic_mean": 39.32955426356589,
+      "speed_mean": 48.807632238942084,
+      "travel_mean": 12.305568855449156,
+      "road_type": "arterial",
+      "road_name": "Jawaharlal Nehru Salai"
+    },
+    "Kamarajar_Salai": {
+      "traffic_mean": 36.646448928408574,
+      "speed_mean": 38.921950524395804,
+      "travel_mean": 9.261873005015959,
+      "road_type": "arterial",
+      "road_name": "Kamarajar Salai"
+    },
+    "Kelambakkam_Road": {
+      "traffic_mean": 36.65870383036936,
+      "speed_mean": 48.852986776105794,
+      "travel_mean": 12.29341655266758,
+      "road_type": "arterial",
+      "road_name": "Kelambakkam Road"
+    },
+    "Kodambakkam_HR": {
+      "traffic_mean": 39.317128362973094,
+      "speed_mean": 36.92469790241678,
+      "travel_mean": 8.138805289557684,
+      "road_type": "arterial",
+      "road_name": "Kodambakkam High Road"
+    },
+    "Kolathur_Main": {
+      "traffic_mean": 42.430865253077975,
+      "speed_mean": 28.84327405380757,
+      "travel_mean": 10.429725262197902,
+      "road_type": "collector",
+      "road_name": "Kolathur Main Road"
+    },
+    "LB_Road_Adyar": {
+      "traffic_mean": 36.64546283629731,
+      "speed_mean": 36.97302211582307,
+      "travel_mean": 9.76217510259918,
+      "road_type": "arterial",
+      "road_name": "LB Road Adyar"
+    },
+    "Lattice_Bridge_Road": {
+      "traffic_mean": 36.646431828545374,
+      "speed_mean": 33.96769265845873,
+      "travel_mean": 5.290241678066575,
+      "road_type": "arterial",
+      "road_name": "Lattice Bridge Road"
+    },
+    "Lloyds_Road": {
+      "traffic_mean": 42.44608413132695,
+      "speed_mean": 26.888389192886457,
+      "travel_mean": 4.482221842225263,
+      "road_type": "collector",
+      "road_name": "Lloyds Road"
+    },
+    "Madhavaram_HR": {
+      "traffic_mean": 36.65828773369813,
+      "speed_mean": 38.916068171454626,
+      "travel_mean": 12.351544687642498,
+      "road_type": "arterial",
+      "road_name": "Madhavaram High Road"
+    },
+    "Manali_Road": {
+      "traffic_mean": 36.64569653442772,
+      "speed_mean": 43.88178864569083,
+      "travel_mean": 10.96547537619699,
+      "road_type": "arterial",
+      "road_name": "Manali Main Road"
+    },
+    "Medavakkam_Main": {
+      "traffic_mean": 42.43327633378933,
+      "speed_mean": 28.851641586867306,
+      "travel_mean": 10.427171682626538,
+      "road_type": "collector",
+      "road_name": "Medavakkam Main Road"
+    },
+    "Mint_Street": {
+      "traffic_mean": 42.42001253989968,
+      "speed_mean": 23.923654810761512,
+      "travel_mean": 5.034604423164615,
+      "road_type": "collector",
+      "road_name": "Mint Street"
+    },
+    "Mogappair_Main": {
+      "traffic_mean": 45.57321021431829,
+      "speed_mean": 28.806691746466026,
+      "travel_mean": 10.444453944368446,
+      "road_type": "collector",
+      "road_name": "Mogappair Main Road"
+    },
+    "NH16_GST": {
+      "traffic_mean": 25.052314181486548,
+      "speed_mean": 79.11326379388966,
+      "travel_mean": 26.527758777929776,
+      "road_type": "NH",
+      "road_name": "NH-16 GST Road"
+    },
+    "NH32_Poonamallee": {
+      "traffic_mean": 26.897862517099863,
+      "speed_mean": 74.10216028271775,
+      "travel_mean": 17.818137254901963,
+      "road_type": "NH",
+      "road_name": "NH-32 Poonamallee Road"
+    },
+    "NH48_Bypass": {
+      "traffic_mean": 25.04611263109895,
+      "speed_mean": 79.11379388964887,
+      "travel_mean": 28.826350889192888,
+      "road_type": "NH",
+      "road_name": "NH-48 Chennai Bypass"
+    },
+    "NH716_ECR": {
+      "traffic_mean": 25.084661422708617,
+      "speed_mean": 79.10709644322844,
+      "travel_mean": 37.9327405380757,
+      "road_type": "NH",
+      "road_name": "NH-716 East Coast Road"
+    },
+    "NSC_Bose_Road": {
+      "traffic_mean": 36.6265902872777,
+      "speed_mean": 33.96702006383949,
+      "travel_mean": 8.859513223894208,
+      "road_type": "arterial",
+      "road_name": "NSC Bose Road"
+    },
+    "Nanganallur_Road": {
+      "traffic_mean": 42.443644550843594,
+      "speed_mean": 28.88392042863657,
+      "travel_mean": 8.331589147286822,
+      "road_type": "collector",
+      "road_name": "Nanganallur Road"
+    },
+    "Nungambakkam_HR": {
+      "traffic_mean": 39.33210214318286,
+      "speed_mean": 33.927696078431374,
+      "travel_mean": 7.105437756497948,
+      "road_type": "arterial",
+      "road_name": "Nungambakkam High Road"
+    },
+    "ORR_North": {
+      "traffic_mean": 20.125022799817604,
+      "speed_mean": 79.1656520747834,
+      "travel_mean": 18.976578887368902,
+      "road_type": "expressway",
+      "road_name": "Outer Ring Road North"
+    },
+    "ORR_South": {
+      "traffic_mean": 18.807592339261287,
+      "speed_mean": 79.17936616507068,
+      "travel_mean": 21.2219049247606,
+      "road_type": "expressway",
+      "road_name": "Outer Ring Road South"
+    },
+    "ORR_West": {
+      "traffic_mean": 20.1671796625627,
+      "speed_mean": 74.18928408572732,
+      "travel_mean": 16.17849977200182,
+      "road_type": "expressway",
+      "road_name": "Outer Ring Road West"
+    },
+    "Pallavaram_Main": {
+      "traffic_mean": 42.46852485180119,
+      "speed_mean": 28.851424988600094,
+      "travel_mean": 8.341005471956224,
+      "road_type": "collector",
+      "road_name": "Pallavaram Main Road"
+    },
+    "Pallavaram_Thorai": {
+      "traffic_mean": 36.65123689010488,
+      "speed_mean": 43.9031349749202,
+      "travel_mean": 16.417766757865937,
+      "road_type": "arterial",
+      "road_name": "Pallavaram Thoraipakkam Road"
+    },
+    "Pattullos_Road": {
+      "traffic_mean": 36.67155722754218,
+      "speed_mean": 33.96484838121295,
+      "travel_mean": 5.291182170542636,
+      "road_type": "arterial",
+      "road_name": "Pattullos Road"
+    },
+    "Perambur_Barracks": {
+      "traffic_mean": 42.44782831737346,
+      "speed_mean": 28.856674646602826,
+      "travel_mean": 8.339489284085728,
+      "road_type": "collector",
+      "road_name": "Perambur Barracks Road"
+    },
+    "Perungudi_Road": {
+      "traffic_mean": 42.44011627906977,
+      "speed_mean": 28.86438098495212,
+      "travel_mean": 8.337363201094393,
+      "road_type": "collector",
+      "road_name": "Perungudi Road"
+    },
+    "Poonamallee_HR": {
+      "traffic_mean": 39.285641814865485,
+      "speed_mean": 43.82918946648427,
+      "travel_mean": 24.671015731874146,
+      "road_type": "arterial",
+      "road_name": "Poonamallee High Road"
+    },
+    "Porur_Main": {
+      "traffic_mean": 45.56175330597355,
+      "speed_mean": 33.73039785681714,
+      "travel_mean": 8.925376196990424,
+      "road_type": "collector",
+      "road_name": "Porur Main Road"
+    },
+    "Rajaji_Salai": {
+      "traffic_mean": 36.64463064295486,
+      "speed_mean": 33.95652074783401,
+      "travel_mean": 7.099093707250342,
+      "road_type": "arterial",
+      "road_name": "Rajaji Salai"
+    },
+    "Rajiv_Gandhi_IT": {
+      "traffic_mean": 20.400712494300045,
+      "speed_mean": 69.16794915640675,
+      "travel_mean": 17.33388052895577,
+      "road_type": "expressway",
+      "road_name": "Rajiv Gandhi IT Expressway"
+    },
+    "Rajiv_Gandhi_Salai": {
+      "traffic_mean": 39.90725034199727,
+      "speed_mean": 58.67721728226174,
+      "travel_mean": 25.58484952120383,
+      "road_type": "arterial",
+      "road_name": "Rajiv Gandhi Salai"
+    },
+    "Redhills_Road": {
+      "traffic_mean": 36.6499259005928,
+      "speed_mean": 48.85230848153215,
+      "travel_mean": 18.441153670770632,
+      "road_type": "arterial",
+      "road_name": "Redhills Road"
+    },
+    "Royapuram_HR": {
+      "traffic_mean": 36.58717510259918,
+      "speed_mean": 33.96235180118559,
+      "travel_mean": 7.098181714546284,
+      "road_type": "arterial",
+      "road_name": "Royapuram High Road"
+    },
+    "SH104_Vandalur": {
+      "traffic_mean": 28.178630870953032,
+      "speed_mean": 59.10547195622435,
+      "travel_mean": 18.280591655266758,
+      "road_type": "SH",
+      "road_name": "SH-104 Vandalur Kelambakkam"
+    },
+    "SH49_OMR": {
+      "traffic_mean": 30.708076835385317,
+      "speed_mean": 69.04814751481987,
+      "travel_mean": 26.07156292749658,
+      "road_type": "SH",
+      "road_name": "SH-49 Old Mahabalipuram Road"
+    },
+    "SH57_Velachery": {
+      "traffic_mean": 28.217122663018696,
+      "speed_mean": 49.09324555403557,
+      "travel_mean": 9.783880528955768,
+      "road_type": "SH",
+      "road_name": "SH-57 Velachery Main Road"
+    },
+    "SH_Ennore_Exp": {
+      "traffic_mean": 28.21845075239398,
+      "speed_mean": 69.06152530779754,
+      "travel_mean": 10.43515731874145,
+      "road_type": "SH",
+      "road_name": "Ennore Expressway"
+    },
+    "Santhome_HR": {
+      "traffic_mean": 36.60454856361149,
+      "speed_mean": 33.96972754217966,
+      "travel_mean": 7.096352029183767,
+      "road_type": "arterial",
+      "road_name": "Santhome High Road"
+    },
+    "Sardar_Patel_Road": {
+      "traffic_mean": 36.66136000911993,
+      "speed_mean": 48.845975832193346,
+      "travel_mean": 9.835858413132694,
+      "road_type": "arterial",
+      "road_name": "Sardar Patel Road"
+    },
+    "Sholinganallur_Road": {
+      "traffic_mean": 42.460516415868675,
+      "speed_mean": 28.873158914728684,
+      "travel_mean": 10.418690150478795,
+      "road_type": "collector",
+      "road_name": "Sholinganallur Main Road"
+    },
+    "Siruseri_Road": {
+      "traffic_mean": 42.46080711354309,
+      "speed_mean": 33.79782261741906,
+      "travel_mean": 10.680511855905152,
+      "road_type": "collector",
+      "road_name": "Siruseri Road"
+    },
+    "TTK_Road": {
+      "traffic_mean": 42.463269493844045,
+      "speed_mean": 28.850683994528044,
+      "travel_mean": 6.255540355677154,
+      "road_type": "collector",
+      "road_name": "TTK Road"
+    },
+    "Tambaram_Mudichur": {
+      "traffic_mean": 36.6641016871865,
+      "speed_mean": 43.893735750114,
+      "travel_mean": 10.962226402188781,
+      "road_type": "arterial",
+      "road_name": "Tambaram Mudichur Road"
+    },
+    "Thirumangalam_Road": {
+      "traffic_mean": 45.60548905608755,
+      "speed_mean": 28.80183538531692,
+      "travel_mean": 8.356828545371638,
+      "road_type": "collector",
+      "road_name": "Thirumangalam Road"
+    },
+    "Thiruvottiyur_HR": {
+      "traffic_mean": 36.60506155950752,
+      "speed_mean": 38.924053807569535,
+      "travel_mean": 15.436046511627907,
+      "road_type": "arterial",
+      "road_name": "Thiruvottiyur High Road"
+    },
+    "Tondiarpet_HR": {
+      "traffic_mean": 36.67571249430004,
+      "speed_mean": 36.94557683538532,
+      "travel_mean": 8.133971728226173,
+      "road_type": "arterial",
+      "road_name": "Tondiarpet High Road"
+    },
+    "Trunk_Road_Perambur": {
+      "traffic_mean": 36.61174190606475,
+      "speed_mean": 36.95594505243958,
+      "travel_mean": 9.767116963064295,
+      "road_type": "arterial",
+      "road_name": "Trunk Road Perambur"
+    },
+    "Valasaravakkam_Main": {
+      "traffic_mean": 45.53722070223438,
+      "speed_mean": 28.80702804377565,
+      "travel_mean": 8.354862061103512,
+      "road_type": "collector",
+      "road_name": "Valasaravakkam Main Road"
+    },
+    "Velachery_Tambaram": {
+      "traffic_mean": 36.65609895120839,
+      "speed_mean": 38.935014819881445,
+      "travel_mean": 15.43075695394437,
+      "road_type": "arterial",
+      "road_name": "Velachery Tambaram Road"
+    },
+    "Villivakkam_Main": {
+      "traffic_mean": 45.552656178750574,
+      "speed_mean": 28.810060419516645,
+      "travel_mean": 8.354086867305062,
+      "road_type": "collector",
+      "road_name": "Villivakkam Main Road"
+    }
+  }
+}
