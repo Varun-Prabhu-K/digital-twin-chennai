@@ -1,0 +1,1440 @@
+{
+  "roads": [
+    {
+      "id": "NH48_Bypass",
+      "name": "NH-48 Chennai Bypass",
+      "type": "NH",
+      "lanes": 6,
+      "speed": 80,
+      "len": 38,
+      "zones": [
+        "Ambattur_Avadi",
+        "Alandur_Guindy",
+        "Tambaram_Pallavaram"
+      ]
+    },
+    {
+      "id": "NH32_Poonamallee",
+      "name": "NH-32 Poonamallee Road",
+      "type": "NH",
+      "lanes": 6,
+      "speed": 75,
+      "len": 22,
+      "zones": [
+        "Ambattur_Avadi",
+        "Arumbakkam_Koyambedu"
+      ]
+    },
+    {
+      "id": "NH16_GST",
+      "name": "NH-16 GST Road",
+      "type": "NH",
+      "lanes": 8,
+      "speed": 80,
+      "len": 35,
+      "zones": [
+        "Tambaram_Pallavaram",
+        "Alandur_Guindy"
+      ]
+    },
+    {
+      "id": "NH716_ECR",
+      "name": "NH-716 East Coast Road",
+      "type": "NH",
+      "lanes": 4,
+      "speed": 80,
+      "len": 50,
+      "zones": [
+        "Perungudi_OMR",
+        "Velachery"
+      ]
+    },
+    {
+      "id": "SH49_OMR",
+      "name": "SH-49 Old Mahabalipuram Road",
+      "type": "SH",
+      "lanes": 6,
+      "speed": 70,
+      "len": 30,
+      "zones": [
+        "Perungudi_OMR",
+        "Velachery"
+      ]
+    },
+    {
+      "id": "SH57_Velachery",
+      "name": "SH-57 Velachery Main Road",
+      "type": "SH",
+      "lanes": 4,
+      "speed": 50,
+      "len": 8,
+      "zones": [
+        "Velachery"
+      ]
+    },
+    {
+      "id": "SH104_Vandalur",
+      "name": "SH-104 Vandalur Kelambakkam",
+      "type": "SH",
+      "lanes": 4,
+      "speed": 60,
+      "len": 18,
+      "zones": [
+        "Tambaram_Pallavaram",
+        "Perungudi_OMR"
+      ]
+    },
+    {
+      "id": "SH_Ennore_Exp",
+      "name": "Ennore Expressway",
+      "type": "SH",
+      "lanes": 4,
+      "speed": 70,
+      "len": 12,
+      "zones": [
+        "Manali_Ennore",
+        "Kodungaiyur_Perambur"
+      ]
+    },
+    {
+      "id": "ORR_North",
+      "name": "Outer Ring Road North",
+      "type": "expressway",
+      "lanes": 6,
+      "speed": 80,
+      "len": 25,
+      "zones": [
+        "Ambattur_Avadi",
+        "Kodungaiyur_Perambur",
+        "Anna_Nagar_Mogappair"
+      ]
+    },
+    {
+      "id": "ORR_South",
+      "name": "Outer Ring Road South",
+      "type": "expressway",
+      "lanes": 6,
+      "speed": 80,
+      "len": 28,
+      "zones": [
+        "Tambaram_Pallavaram",
+        "Alandur_Guindy",
+        "Velachery"
+      ]
+    },
+    {
+      "id": "ORR_West",
+      "name": "Outer Ring Road West",
+      "type": "expressway",
+      "lanes": 6,
+      "speed": 75,
+      "len": 20,
+      "zones": [
+        "Ambattur_Avadi",
+        "Arumbakkam_Koyambedu"
+      ]
+    },
+    {
+      "id": "Rajiv_Gandhi_IT",
+      "name": "Rajiv Gandhi IT Expressway",
+      "type": "expressway",
+      "lanes": 6,
+      "speed": 70,
+      "len": 20,
+      "zones": [
+        "Perungudi_OMR"
+      ]
+    },
+    {
+      "id": "Inner_Ring_Road",
+      "name": "Inner Ring Road",
+      "type": "expressway",
+      "lanes": 6,
+      "speed": 55,
+      "len": 22,
+      "zones": [
+        "Alandur_Guindy",
+        "Velachery",
+        "Arumbakkam_Koyambedu",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Anna_Salai",
+      "name": "Anna Salai (Mount Road)",
+      "type": "arterial",
+      "lanes": 6,
+      "speed": 45,
+      "len": 12,
+      "zones": [
+        "Egmore_Nungambakkam",
+        "Alandur_Guindy"
+      ]
+    },
+    {
+      "id": "Rajaji_Salai",
+      "name": "Rajaji Salai",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 4,
+      "zones": [
+        "Royapuram_Tondiarpet",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Kamarajar_Salai",
+      "name": "Kamarajar Salai",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 6,
+      "zones": [
+        "Royapuram_Tondiarpet",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "NSC_Bose_Road",
+      "name": "NSC Bose Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 5,
+      "zones": [
+        "Egmore_Nungambakkam",
+        "Royapuram_Tondiarpet"
+      ]
+    },
+    {
+      "id": "Pattullos_Road",
+      "name": "Pattullos Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 3,
+      "zones": [
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "EVK_Sampath",
+      "name": "EVK Sampath Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 4,
+      "zones": [
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Harrington_Road",
+      "name": "Harrington Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 38,
+      "len": 3,
+      "zones": [
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Nungambakkam_HR",
+      "name": "Nungambakkam High Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 4,
+      "zones": [
+        "Egmore_Nungambakkam",
+        "Arumbakkam_Koyambedu"
+      ]
+    },
+    {
+      "id": "Kodambakkam_HR",
+      "name": "Kodambakkam High Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 38,
+      "len": 5,
+      "zones": [
+        "Arumbakkam_Koyambedu",
+        "Alandur_Guindy"
+      ]
+    },
+    {
+      "id": "Bells_Road",
+      "name": "Bells Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 38,
+      "len": 5,
+      "zones": [
+        "Royapuram_Tondiarpet",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Basin_Bridge_Road",
+      "name": "Basin Bridge Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 3,
+      "zones": [
+        "Royapuram_Tondiarpet",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Trunk_Road_Perambur",
+      "name": "Trunk Road Perambur",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 38,
+      "len": 6,
+      "zones": [
+        "Kodungaiyur_Perambur"
+      ]
+    },
+    {
+      "id": "Madhavaram_HR",
+      "name": "Madhavaram High Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 8,
+      "zones": [
+        "Kodungaiyur_Perambur",
+        "Manali_Ennore"
+      ]
+    },
+    {
+      "id": "Thiruvottiyur_HR",
+      "name": "Thiruvottiyur High Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 10,
+      "zones": [
+        "Royapuram_Tondiarpet",
+        "Manali_Ennore"
+      ]
+    },
+    {
+      "id": "Royapuram_HR",
+      "name": "Royapuram High Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 4,
+      "zones": [
+        "Royapuram_Tondiarpet"
+      ]
+    },
+    {
+      "id": "Tondiarpet_HR",
+      "name": "Tondiarpet High Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 38,
+      "len": 5,
+      "zones": [
+        "Royapuram_Tondiarpet",
+        "Kodungaiyur_Perambur"
+      ]
+    },
+    {
+      "id": "Manali_Road",
+      "name": "Manali Main Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 45,
+      "len": 8,
+      "zones": [
+        "Manali_Ennore"
+      ]
+    },
+    {
+      "id": "Redhills_Road",
+      "name": "Redhills Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 50,
+      "len": 15,
+      "zones": [
+        "Ambattur_Avadi",
+        "Kodungaiyur_Perambur"
+      ]
+    },
+    {
+      "id": "Kolathur_Main",
+      "name": "Kolathur Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 5,
+      "zones": [
+        "Kodungaiyur_Perambur"
+      ]
+    },
+    {
+      "id": "Villivakkam_Main",
+      "name": "Villivakkam Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Kodungaiyur_Perambur",
+        "Anna_Nagar_Mogappair"
+      ]
+    },
+    {
+      "id": "Perambur_Barracks",
+      "name": "Perambur Barracks Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Kodungaiyur_Perambur"
+      ]
+    },
+    {
+      "id": "Arcot_Road",
+      "name": "Arcot Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 12,
+      "zones": [
+        "Arumbakkam_Koyambedu",
+        "Ambattur_Avadi"
+      ]
+    },
+    {
+      "id": "Poonamallee_HR",
+      "name": "Poonamallee High Road",
+      "type": "arterial",
+      "lanes": 6,
+      "speed": 45,
+      "len": 18,
+      "zones": [
+        "Arumbakkam_Koyambedu",
+        "Ambattur_Avadi"
+      ]
+    },
+    {
+      "id": "CTH_Road",
+      "name": "Chennai Trunk Road (CTH)",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 50,
+      "len": 20,
+      "zones": [
+        "Ambattur_Avadi"
+      ]
+    },
+    {
+      "id": "Jawaharlal_Nehru_Rd",
+      "name": "Jawaharlal Nehru Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 8,
+      "zones": [
+        "Arumbakkam_Koyambedu",
+        "Anna_Nagar_Mogappair"
+      ]
+    },
+    {
+      "id": "Mogappair_Main",
+      "name": "Mogappair Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 5,
+      "zones": [
+        "Anna_Nagar_Mogappair"
+      ]
+    },
+    {
+      "id": "Ambattur_IE_Road",
+      "name": "Ambattur Industrial Estate Rd",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 6,
+      "zones": [
+        "Ambattur_Avadi"
+      ]
+    },
+    {
+      "id": "Porur_Main",
+      "name": "Porur Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 35,
+      "len": 5,
+      "zones": [
+        "Arumbakkam_Koyambedu",
+        "Ambattur_Avadi"
+      ]
+    },
+    {
+      "id": "Valasaravakkam_Main",
+      "name": "Valasaravakkam Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Arumbakkam_Koyambedu"
+      ]
+    },
+    {
+      "id": "Anna_Nagar_2nd_Ave",
+      "name": "Anna Nagar 2nd Avenue",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 5,
+      "zones": [
+        "Anna_Nagar_Mogappair"
+      ]
+    },
+    {
+      "id": "Anna_Nagar_ER",
+      "name": "Anna Nagar East Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 3,
+      "zones": [
+        "Anna_Nagar_Mogappair",
+        "Arumbakkam_Koyambedu"
+      ]
+    },
+    {
+      "id": "Thirumangalam_Road",
+      "name": "Thirumangalam Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Anna_Nagar_Mogappair",
+        "Arumbakkam_Koyambedu"
+      ]
+    },
+    {
+      "id": "Sardar_Patel_Road",
+      "name": "Sardar Patel Road",
+      "type": "arterial",
+      "lanes": 6,
+      "speed": 50,
+      "len": 8,
+      "zones": [
+        "Alandur_Guindy",
+        "Velachery"
+      ]
+    },
+    {
+      "id": "Dr_Radha_Salai",
+      "name": "Dr Radhakrishnan Salai",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 5,
+      "zones": [
+        "Adyar_Besant_Nagar",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "LB_Road_Adyar",
+      "name": "LB Road Adyar",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 38,
+      "len": 6,
+      "zones": [
+        "Adyar_Besant_Nagar",
+        "Velachery"
+      ]
+    },
+    {
+      "id": "Lattice_Bridge_Road",
+      "name": "Lattice Bridge Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 3,
+      "zones": [
+        "Adyar_Besant_Nagar"
+      ]
+    },
+    {
+      "id": "Santhome_HR",
+      "name": "Santhome High Road",
+      "type": "arterial",
+      "lanes": 2,
+      "speed": 35,
+      "len": 4,
+      "zones": [
+        "Adyar_Besant_Nagar",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Besant_Avenue",
+      "name": "Besant Avenue Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 3,
+      "zones": [
+        "Adyar_Besant_Nagar"
+      ]
+    },
+    {
+      "id": "TTK_Road",
+      "name": "TTK Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 3,
+      "zones": [
+        "Adyar_Besant_Nagar"
+      ]
+    },
+    {
+      "id": "Chamiers_Road",
+      "name": "Chamiers Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 3,
+      "zones": [
+        "Adyar_Besant_Nagar",
+        "Alandur_Guindy"
+      ]
+    },
+    {
+      "id": "Greenways_Road",
+      "name": "Greenways Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 3,
+      "zones": [
+        "Adyar_Besant_Nagar"
+      ]
+    },
+    {
+      "id": "CP_Ramaswamy_Road",
+      "name": "CP Ramaswamy Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 28,
+      "len": 3,
+      "zones": [
+        "Adyar_Besant_Nagar",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Cenotaph_Road",
+      "name": "Cenotaph Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 28,
+      "len": 3,
+      "zones": [
+        "Egmore_Nungambakkam",
+        "Adyar_Besant_Nagar"
+      ]
+    },
+    {
+      "id": "Lloyds_Road",
+      "name": "Lloyds Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 28,
+      "len": 2,
+      "zones": [
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Adyar_Bridge_Road",
+      "name": "Adyar Bridge Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 35,
+      "len": 4,
+      "zones": [
+        "Adyar_Besant_Nagar",
+        "Alandur_Guindy"
+      ]
+    },
+    {
+      "id": "100ft_Velachery",
+      "name": "100 Feet Road Velachery",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 6,
+      "zones": [
+        "Velachery"
+      ]
+    },
+    {
+      "id": "Velachery_Tambaram",
+      "name": "Velachery Tambaram Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 40,
+      "len": 10,
+      "zones": [
+        "Velachery",
+        "Tambaram_Pallavaram"
+      ]
+    },
+    {
+      "id": "Medavakkam_Main",
+      "name": "Medavakkam Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 5,
+      "zones": [
+        "Velachery",
+        "Perungudi_OMR"
+      ]
+    },
+    {
+      "id": "Nanganallur_Road",
+      "name": "Nanganallur Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Alandur_Guindy",
+        "Tambaram_Pallavaram"
+      ]
+    },
+    {
+      "id": "Tambaram_Mudichur",
+      "name": "Tambaram Mudichur Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 45,
+      "len": 8,
+      "zones": [
+        "Tambaram_Pallavaram"
+      ]
+    },
+    {
+      "id": "Chromepet_Main",
+      "name": "Chromepet Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Tambaram_Pallavaram"
+      ]
+    },
+    {
+      "id": "Pallavaram_Main",
+      "name": "Pallavaram Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Tambaram_Pallavaram",
+        "Alandur_Guindy"
+      ]
+    },
+    {
+      "id": "Pallavaram_Thorai",
+      "name": "Pallavaram Thoraipakkam Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 45,
+      "len": 12,
+      "zones": [
+        "Tambaram_Pallavaram",
+        "Perungudi_OMR"
+      ]
+    },
+    {
+      "id": "Perungudi_Road",
+      "name": "Perungudi Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 4,
+      "zones": [
+        "Perungudi_OMR"
+      ]
+    },
+    {
+      "id": "Sholinganallur_Road",
+      "name": "Sholinganallur Main Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 30,
+      "len": 5,
+      "zones": [
+        "Perungudi_OMR"
+      ]
+    },
+    {
+      "id": "Siruseri_Road",
+      "name": "Siruseri Road",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 35,
+      "len": 6,
+      "zones": [
+        "Perungudi_OMR"
+      ]
+    },
+    {
+      "id": "Kelambakkam_Road",
+      "name": "Kelambakkam Road",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 50,
+      "len": 10,
+      "zones": [
+        "Perungudi_OMR",
+        "Tambaram_Pallavaram"
+      ]
+    },
+    {
+      "id": "100ft_Vadapalani",
+      "name": "100 Feet Road Vadapalani",
+      "type": "arterial",
+      "lanes": 4,
+      "speed": 38,
+      "len": 5,
+      "zones": [
+        "Arumbakkam_Koyambedu",
+        "Alandur_Guindy"
+      ]
+    },
+    {
+      "id": "Jawaharlal_Nehru_Sal",
+      "name": "Jawaharlal Nehru Salai",
+      "type": "arterial",
+      "lanes": 6,
+      "speed": 50,
+      "len": 10,
+      "zones": [
+        "Alandur_Guindy",
+        "Arumbakkam_Koyambedu"
+      ]
+    },
+    {
+      "id": "Rajiv_Gandhi_Salai",
+      "name": "Rajiv Gandhi Salai",
+      "type": "arterial",
+      "lanes": 6,
+      "speed": 60,
+      "len": 25,
+      "zones": [
+        "Perungudi_OMR",
+        "Velachery"
+      ]
+    },
+    {
+      "id": "Mint_Street",
+      "name": "Mint Street",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 25,
+      "len": 2,
+      "zones": [
+        "Royapuram_Tondiarpet",
+        "Egmore_Nungambakkam"
+      ]
+    },
+    {
+      "id": "Harrington_Egmore",
+      "name": "Poonamallee HR Egmore",
+      "type": "collector",
+      "lanes": 2,
+      "speed": 28,
+      "len": 3,
+      "zones": [
+        "Egmore_Nungambakkam"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "Velachery",
+      "name": "Velachery",
+      "lat": 12.9783,
+      "lon": 80.2209,
+      "station": "Velachery",
+      "roads": [
+        "NH716_ECR",
+        "SH49_OMR",
+        "SH57_Velachery",
+        "ORR_South",
+        "Inner_Ring_Road",
+        "Sardar_Patel_Road",
+        "LB_Road_Adyar",
+        "100ft_Velachery",
+        "Velachery_Tambaram",
+        "Medavakkam_Main",
+        "Rajiv_Gandhi_Salai"
+      ]
+    },
+    {
+      "id": "Perungudi_OMR",
+      "name": "Perungudi OMR",
+      "lat": 12.9632,
+      "lon": 80.2446,
+      "station": "Perungudi",
+      "roads": [
+        "NH716_ECR",
+        "SH49_OMR",
+        "SH104_Vandalur",
+        "Rajiv_Gandhi_IT",
+        "Medavakkam_Main",
+        "Pallavaram_Thorai",
+        "Perungudi_Road",
+        "Sholinganallur_Road",
+        "Siruseri_Road",
+        "Kelambakkam_Road",
+        "Rajiv_Gandhi_Salai"
+      ]
+    },
+    {
+      "id": "Alandur_Guindy",
+      "name": "Alandur Guindy",
+      "lat": 12.999,
+      "lon": 80.1818,
+      "station": "Alandur",
+      "roads": [
+        "NH48_Bypass",
+        "NH16_GST",
+        "ORR_South",
+        "Inner_Ring_Road",
+        "Anna_Salai",
+        "Kodambakkam_HR",
+        "Sardar_Patel_Road",
+        "Chamiers_Road",
+        "Adyar_Bridge_Road",
+        "Nanganallur_Road",
+        "Pallavaram_Main",
+        "100ft_Vadapalani",
+        "Jawaharlal_Nehru_Sal"
+      ]
+    },
+    {
+      "id": "Kodungaiyur_Perambur",
+      "name": "Kodungaiyur Perambur",
+      "lat": 13.1127,
+      "lon": 80.2362,
+      "station": "Kodungaiyur",
+      "roads": [
+        "SH_Ennore_Exp",
+        "ORR_North",
+        "Trunk_Road_Perambur",
+        "Madhavaram_HR",
+        "Tondiarpet_HR",
+        "Redhills_Road",
+        "Kolathur_Main",
+        "Villivakkam_Main",
+        "Perambur_Barracks"
+      ]
+    },
+    {
+      "id": "Royapuram_Tondiarpet",
+      "name": "Royapuram Tondiarpet",
+      "lat": 13.11,
+      "lon": 80.2927,
+      "station": "Royapuram",
+      "roads": [
+        "Rajaji_Salai",
+        "Kamarajar_Salai",
+        "NSC_Bose_Road",
+        "Bells_Road",
+        "Basin_Bridge_Road",
+        "Thiruvottiyur_HR",
+        "Royapuram_HR",
+        "Tondiarpet_HR",
+        "Mint_Street"
+      ]
+    },
+    {
+      "id": "Manali_Ennore",
+      "name": "Manali Ennore",
+      "lat": 13.1674,
+      "lon": 80.261,
+      "station": "Manali",
+      "roads": [
+        "SH_Ennore_Exp",
+        "Madhavaram_HR",
+        "Thiruvottiyur_HR",
+        "Manali_Road"
+      ]
+    },
+    {
+      "id": "Arumbakkam_Koyambedu",
+      "name": "Arumbakkam Koyambedu",
+      "lat": 13.0694,
+      "lon": 80.2056,
+      "station": "Arumbakkam",
+      "roads": [
+        "NH32_Poonamallee",
+        "ORR_West",
+        "Inner_Ring_Road",
+        "Nungambakkam_HR",
+        "Kodambakkam_HR",
+        "Arcot_Road",
+        "Poonamallee_HR",
+        "Jawaharlal_Nehru_Rd",
+        "Porur_Main",
+        "Valasaravakkam_Main",
+        "Anna_Nagar_ER",
+        "Thirumangalam_Road",
+        "100ft_Vadapalani",
+        "Jawaharlal_Nehru_Sal"
+      ]
+    },
+    {
+      "id": "Egmore_Nungambakkam",
+      "name": "Egmore Nungambakkam",
+      "lat": 13.0732,
+      "lon": 80.2609,
+      "station": null,
+      "roads": [
+        "Inner_Ring_Road",
+        "Anna_Salai",
+        "Rajaji_Salai",
+        "Kamarajar_Salai",
+        "NSC_Bose_Road",
+        "Pattullos_Road",
+        "EVK_Sampath",
+        "Harrington_Road",
+        "Nungambakkam_HR",
+        "Bells_Road",
+        "Basin_Bridge_Road",
+        "Dr_Radha_Salai",
+        "Santhome_HR",
+        "CP_Ramaswamy_Road",
+        "Cenotaph_Road",
+        "Lloyds_Road",
+        "Mint_Street",
+        "Harrington_Egmore"
+      ]
+    },
+    {
+      "id": "Tambaram_Pallavaram",
+      "name": "Tambaram Pallavaram",
+      "lat": 12.9229,
+      "lon": 80.1275,
+      "station": null,
+      "roads": [
+        "NH48_Bypass",
+        "NH16_GST",
+        "SH104_Vandalur",
+        "ORR_South",
+        "Velachery_Tambaram",
+        "Nanganallur_Road",
+        "Tambaram_Mudichur",
+        "Chromepet_Main",
+        "Pallavaram_Main",
+        "Pallavaram_Thorai",
+        "Kelambakkam_Road"
+      ]
+    },
+    {
+      "id": "Anna_Nagar_Mogappair",
+      "name": "Anna Nagar Mogappair",
+      "lat": 13.0878,
+      "lon": 80.2101,
+      "station": null,
+      "roads": [
+        "ORR_North",
+        "Villivakkam_Main",
+        "Jawaharlal_Nehru_Rd",
+        "Mogappair_Main",
+        "Anna_Nagar_2nd_Ave",
+        "Anna_Nagar_ER",
+        "Thirumangalam_Road"
+      ]
+    },
+    {
+      "id": "Ambattur_Avadi",
+      "name": "Ambattur Avadi",
+      "lat": 13.1143,
+      "lon": 80.1548,
+      "station": null,
+      "roads": [
+        "NH48_Bypass",
+        "NH32_Poonamallee",
+        "ORR_North",
+        "ORR_West",
+        "Redhills_Road",
+        "Arcot_Road",
+        "Poonamallee_HR",
+        "CTH_Road",
+        "Ambattur_IE_Road",
+        "Porur_Main"
+      ]
+    },
+    {
+      "id": "Adyar_Besant_Nagar",
+      "name": "Adyar Besant Nagar",
+      "lat": 12.9982,
+      "lon": 80.2565,
+      "station": null,
+      "roads": [
+        "Dr_Radha_Salai",
+        "LB_Road_Adyar",
+        "Lattice_Bridge_Road",
+        "Santhome_HR",
+        "Besant_Avenue",
+        "TTK_Road",
+        "Chamiers_Road",
+        "Greenways_Road",
+        "CP_Ramaswamy_Road",
+        "Cenotaph_Road",
+        "Adyar_Bridge_Road"
+      ]
+    }
+  ],
+  "festivals": [
+    [
+      2024,
+      1,
+      13,
+      "Pongal Eve",
+      1.35
+    ],
+    [
+      2024,
+      1,
+      14,
+      "Pongal",
+      0.5
+    ],
+    [
+      2024,
+      1,
+      15,
+      "Kannum Pongal",
+      0.55
+    ],
+    [
+      2024,
+      1,
+      16,
+      "Uzhavar Thirunal",
+      0.6
+    ],
+    [
+      2025,
+      1,
+      13,
+      "Pongal Eve",
+      1.35
+    ],
+    [
+      2025,
+      1,
+      14,
+      "Pongal",
+      0.5
+    ],
+    [
+      2025,
+      1,
+      15,
+      "Kannum Pongal",
+      0.55
+    ],
+    [
+      2025,
+      1,
+      16,
+      "Uzhavar Thirunal",
+      0.6
+    ],
+    [
+      2024,
+      1,
+      26,
+      "Republic Day",
+      0.72
+    ],
+    [
+      2025,
+      1,
+      26,
+      "Republic Day",
+      0.72
+    ],
+    [
+      2024,
+      4,
+      13,
+      "Tamil New Year Eve",
+      1.4
+    ],
+    [
+      2024,
+      4,
+      14,
+      "Tamil New Year",
+      0.58
+    ],
+    [
+      2025,
+      4,
+      13,
+      "Tamil New Year Eve",
+      1.4
+    ],
+    [
+      2025,
+      4,
+      14,
+      "Tamil New Year",
+      0.58
+    ],
+    [
+      2024,
+      3,
+      29,
+      "Good Friday",
+      0.78
+    ],
+    [
+      2025,
+      4,
+      18,
+      "Good Friday",
+      0.78
+    ],
+    [
+      2024,
+      5,
+      1,
+      "Labour Day",
+      0.75
+    ],
+    [
+      2025,
+      5,
+      1,
+      "Labour Day",
+      0.75
+    ],
+    [
+      2024,
+      8,
+      15,
+      "Independence Day",
+      0.7
+    ],
+    [
+      2025,
+      8,
+      15,
+      "Independence Day",
+      0.7
+    ],
+    [
+      2024,
+      9,
+      6,
+      "Vinayagar Chaturthi Eve",
+      1.3
+    ],
+    [
+      2024,
+      9,
+      7,
+      "Vinayagar Chaturthi",
+      1.55
+    ],
+    [
+      2025,
+      8,
+      26,
+      "Vinayagar Chaturthi Eve",
+      1.3
+    ],
+    [
+      2025,
+      8,
+      27,
+      "Vinayagar Chaturthi",
+      1.55
+    ],
+    [
+      2024,
+      10,
+      2,
+      "Gandhi Jayanti",
+      0.75
+    ],
+    [
+      2025,
+      10,
+      2,
+      "Gandhi Jayanti",
+      0.75
+    ],
+    [
+      2024,
+      10,
+      3,
+      "Navratri Start",
+      1.15
+    ],
+    [
+      2024,
+      10,
+      12,
+      "Vijayadasami",
+      1.35
+    ],
+    [
+      2025,
+      9,
+      22,
+      "Navratri Start",
+      1.15
+    ],
+    [
+      2025,
+      10,
+      2,
+      "Vijayadasami",
+      1.35
+    ],
+    [
+      2024,
+      10,
+      31,
+      "Diwali Eve",
+      1.5
+    ],
+    [
+      2024,
+      11,
+      1,
+      "Diwali",
+      1.65
+    ],
+    [
+      2024,
+      11,
+      2,
+      "Diwali Holiday",
+      0.68
+    ],
+    [
+      2025,
+      10,
+      19,
+      "Diwali Eve",
+      1.5
+    ],
+    [
+      2025,
+      10,
+      20,
+      "Diwali",
+      1.65
+    ],
+    [
+      2025,
+      10,
+      21,
+      "Diwali Holiday",
+      0.68
+    ],
+    [
+      2024,
+      11,
+      26,
+      "Karthigai Deepam",
+      1.2
+    ],
+    [
+      2025,
+      11,
+      15,
+      "Karthigai Deepam",
+      1.2
+    ],
+    [
+      2024,
+      12,
+      24,
+      "Christmas Eve",
+      1.25
+    ],
+    [
+      2024,
+      12,
+      25,
+      "Christmas",
+      0.78
+    ],
+    [
+      2025,
+      12,
+      24,
+      "Christmas Eve",
+      1.25
+    ],
+    [
+      2025,
+      12,
+      25,
+      "Christmas",
+      0.78
+    ],
+    [
+      2024,
+      12,
+      31,
+      "New Year's Eve",
+      1.7
+    ],
+    [
+      2025,
+      12,
+      31,
+      "New Year's Eve",
+      1.7
+    ]
+  ],
+  "dataset_info": {
+    "road_rows": 1315800,
+    "zone_rows": 210528,
+    "date_range": "2024-01-01 to 2025-12-31",
+    "n_roads": 75,
+    "n_zones": 12,
+    "n_festivals": 44,
+    "pollution_source": "Real CPCB/TNPCB (7 stations) + interpolated (5 zones)",
+    "traffic_source": "Statistically generated \u2014 BPR speed-flow model, Chennai-calibrated"
+  }
+}
