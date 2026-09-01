@@ -1,0 +1,269 @@
+{
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos",
+    "zone_traffic",
+    "temperature",
+    "humidity",
+    "wind_speed_kmph",
+    "rainfall_mm",
+    "pm25_lag1",
+    "pm25_lag3",
+    "pm25_roll4",
+    "traffic_x_humidity",
+    "traffic_x_no_wind"
+  ],
+  "zone_models": {
+    "Adyar_Besant_Nagar": {
+      "pm25": {
+        "rmse": 14.856,
+        "r2": 0.6363
+      },
+      "pm10": {
+        "rmse": 52.099,
+        "r2": 0.0283
+      },
+      "no2": {
+        "rmse": 4.827,
+        "r2": -5.464
+      }
+    },
+    "Alandur_Guindy": {
+      "pm25": {
+        "rmse": 9.986,
+        "r2": 0.9194
+      },
+      "pm10": {
+        "rmse": 28.191,
+        "r2": 0.5413
+      },
+      "no2": {
+        "rmse": 13.093,
+        "r2": -0.6315
+      }
+    },
+    "Ambattur_Avadi": {
+      "pm25": {
+        "rmse": 19.007,
+        "r2": 0.7143
+      },
+      "pm10": {
+        "rmse": 57.345,
+        "r2": -0.3178
+      },
+      "no2": {
+        "rmse": 6.878,
+        "r2": -0.9869
+      }
+    },
+    "Anna_Nagar_Mogappair": {
+      "pm25": {
+        "rmse": 26.35,
+        "r2": 0.6542
+      },
+      "pm10": {
+        "rmse": 62.988,
+        "r2": 0.3034
+      },
+      "no2": {
+        "rmse": 10.776,
+        "r2": -0.8012
+      }
+    },
+    "Arumbakkam_Koyambedu": {
+      "pm25": {
+        "rmse": 26.42,
+        "r2": 0.6523
+      },
+      "pm10": {
+        "rmse": 63.477,
+        "r2": 0.2926
+      },
+      "no2": {
+        "rmse": 10.775,
+        "r2": -0.8007
+      }
+    },
+    "Egmore_Nungambakkam": {
+      "pm25": {
+        "rmse": 22.989,
+        "r2": 0.5791
+      },
+      "pm10": {
+        "rmse": 53.666,
+        "r2": 0.2153
+      },
+      "no2": {
+        "rmse": 10.437,
+        "r2": -1.0024
+      }
+    },
+    "Kodungaiyur_Perambur": {
+      "pm25": {
+        "rmse": 51.573,
+        "r2": -0.9499
+      },
+      "pm10": {
+        "rmse": 105.278,
+        "r2": -3.3643
+      },
+      "no2": {
+        "rmse": 13.399,
+        "r2": -3.3783
+      }
+    },
+    "Manali_Ennore": {
+      "pm25": {
+        "rmse": 14.033,
+        "r2": 0.7356
+      },
+      "pm10": {
+        "rmse": 46.854,
+        "r2": 0.2792
+      },
+      "no2": {
+        "rmse": 7.583,
+        "r2": -1.3296
+      }
+    },
+    "Perungudi_OMR": {
+      "pm25": {
+        "rmse": 27.312,
+        "r2": 0.616
+      },
+      "pm10": {
+        "rmse": 80.431,
+        "r2": 0.1457
+      },
+      "no2": {
+        "rmse": 3.235,
+        "r2": -1.0289
+      }
+    },
+    "Royapuram_Tondiarpet": {
+      "pm25": {
+        "rmse": 12.936,
+        "r2": 0.5753
+      },
+      "pm10": {
+        "rmse": 47.279,
+        "r2": 0.2282
+      },
+      "no2": {
+        "rmse": 15.105,
+        "r2": -0.9208
+      }
+    },
+    "Tambaram_Pallavaram": {
+      "pm25": {
+        "rmse": 8.46,
+        "r2": 0.8343
+      },
+      "pm10": {
+        "rmse": 47.222,
+        "r2": -0.3418
+      },
+      "no2": {
+        "rmse": 5.664,
+        "r2": -0.572
+      }
+    },
+    "Velachery": {
+      "pm25": {
+        "rmse": 7.243,
+        "r2": 0.7867
+      },
+      "pm10": {
+        "rmse": 55.702,
+        "r2": -1.0394
+      },
+      "no2": {
+        "rmse": 6.282,
+        "r2": -27.9227
+      }
+    }
+  },
+  "zone_baselines": {
+    "Adyar_Besant_Nagar": {
+      "pm25": 28.82,
+      "pm10": 68.94,
+      "no2": 9.57,
+      "data_source": "interpolated"
+    },
+    "Alandur_Guindy": {
+      "pm25": 39.19,
+      "pm10": 73.53,
+      "no2": 15.37,
+      "data_source": "real"
+    },
+    "Ambattur_Avadi": {
+      "pm25": 25.02,
+      "pm10": 68.27,
+      "no2": 12.19,
+      "data_source": "interpolated"
+    },
+    "Anna_Nagar_Mogappair": {
+      "pm25": 37.0,
+      "pm10": 89.87,
+      "no2": 12.83,
+      "data_source": "interpolated"
+    },
+    "Arumbakkam_Koyambedu": {
+      "pm25": 37.0,
+      "pm10": 89.87,
+      "no2": 12.83,
+      "data_source": "real"
+    },
+    "Egmore_Nungambakkam": {
+      "pm25": 28.52,
+      "pm10": 67.72,
+      "no2": 18.25,
+      "data_source": "interpolated"
+    },
+    "Kodungaiyur_Perambur": {
+      "pm25": 20.81,
+      "pm10": 62.57,
+      "no2": 11.61,
+      "data_source": "real"
+    },
+    "Manali_Ennore": {
+      "pm25": 29.66,
+      "pm10": 66.0,
+      "no2": 10.21,
+      "data_source": "real"
+    },
+    "Perungudi_OMR": {
+      "pm25": 29.17,
+      "pm10": 76.92,
+      "no2": 4.98,
+      "data_source": "real"
+    },
+    "Royapuram_Tondiarpet": {
+      "pm25": 25.82,
+      "pm10": 58.37,
+      "no2": 20.83,
+      "data_source": "real"
+    },
+    "Tambaram_Pallavaram": {
+      "pm25": 32.55,
+      "pm10": 67.94,
+      "no2": 14.68,
+      "data_source": "interpolated"
+    },
+    "Velachery": {
+      "pm25": 28.73,
+      "pm10": 60.44,
+      "no2": 14.37,
+      "data_source": "real"
+    }
+  },
+  "data_source": "Real CPCB/TNPCB (7 zones) + spatially interpolated (5 zones)",
+  "who_limits": {
+    "pm25_24h": 15.0,
+    "pm25_annual": 5.0,
+    "pm10_annual": 15.0,
+    "no2_annual": 10.0
+  }
+}
